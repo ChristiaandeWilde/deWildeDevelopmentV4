@@ -24,93 +24,67 @@ import {
     lavaScreenshot,
   } from "../assets";
   
-  export const navLinks = [
-    {
+  export const navLinks = [{
       id: "about",
       title: "About",
-    },
-    {
+    },{
       id: "work",
       title: "Work",
-    },
-    {
+    },{
       id: "slider",
       title: "My Gallery",
-    },
-    {
+    },{
       id: "projects",
       title: "Projects",
-    },
-    {
+    },{
       id: "contact",
       title: "Contact",
-    },
-  ];
+    },];
   
-  const services = [
-    {
+  const services = [{
       title: "Web Developer",
       icon: web,
-    },
-    {
+    },{
       title: "React",
       icon: mobile,
-    },
-    {
+    },{
       title: "Unity",
       icon: backend,
-    },
-    {
+    },{
       title: "Content Creator",
       icon: creator,
-    },
-  ];
+    },];
   
-  const technologies = [
-    {
+  const technologies = [{
       name: "HTML 5",
       icon: html,
-    },
-    {
+    },{
       name: "CSS 3",
       icon: css,
-    },
-    {
+    },{
       name: "JavaScript",
       icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
+    },{
       name: "React JS",
       icon: reactjs,
-    },
-    {
+    },{
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
+    },{
       name: "Node JS",
       icon: nodejs,
-    },
-    {
+    },{
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
+    },{
       name: "Three JS",
       icon: threejs,
-    },
-    {
+    },{
       name: "git",
       icon: git,
-    },
-  ];
+    },];
   
-  const experiences = [
-    {
+  const experiences = [{
       title: "Retail Manager",
       company_name: "Multiple Companies",
       icon: Retail,
@@ -122,8 +96,7 @@ import {
         "Became Retail manager",
         "Brought stores to a number one position in the country.",
       ],
-    },
-    {
+    },{
       title: "Frontoffice coordinator",
       company_name: "Rai Amsterdam",
       icon: Rai,
@@ -135,8 +108,7 @@ import {
         "Ellected employee of the year",
         "Promoted to Frontoffice coordinator",
       ],
-    },
-    {
+    },{
       title: "Web Developer",
       company_name: "ICT-indebuurt",
       icon: ICTindebuurt,
@@ -147,8 +119,7 @@ import {
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+      ],},
     {
       title: "F&B Supervisor, SoftwareDeveloper",
       company_name: "Beurs Van Berlage",
@@ -161,12 +132,10 @@ import {
         "Trained new staff",
         "Created Training applications for new staff",
       ],
-    },
-  ];
+    },];
   
   
-  const projects = [
-    {
+  const projects = [{
       name: "GinMido.nl",
       description:
         "A gaming company website with cookie consent, log in portal and database, made mainly with html and css.",
@@ -186,8 +155,7 @@ import {
       ],
       image: ginmido,
       source_code_link: "https://github.com/",
-    },
-    {
+    },{
       name: "deWildeDevelopment.nl",
       description:
         "A portfolio website with 3D elements",
@@ -207,8 +175,7 @@ import {
       ],
       image: dwd,
       source_code_link: "https://github.com/",
-    },
-    {
+    },{
       name: "Project LAVA",
       description:
         "A  Online Multiplayer game made in Unity, development still in progres, come back for more news.",
@@ -228,7 +195,6 @@ import {
       ],
       image: lavaScreenshot,
       source_code_link: "https://github.com/",
-    },
-  ];
+    },];
   
   export { services, technologies, experiences, projects };

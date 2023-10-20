@@ -41,11 +41,11 @@ function Slider({images, title}) {
     }, [slideIndex])
 
     return ( 
-    <div id="slider" className="flex flex-col items-center justify-center p-8 h-screen">
+    <div id="slider" className="flex flex-col items-center justify-center p-8 ">
         <h1 className="text-2xl font-bold text-cyan-500 mb-4">{title}</h1>
         {images &&
         <>
-            <div className="slider-container flex flex-col relative items-center justify-center p-4 w-screen h-full">
+            <div className="slider-container flex flex-col relative items-center justify-center p-4 w-screen ">
                 {/* <h1 className="text-slate-700 text-2xl font-bold mb-6">{title}</h1> */}
                 <div className="slider-img max-w-screen-md w-10/12 h-4/6 rounded-md overflow-hidden shadow-xl flex justify-center items-center">
                     <img 
